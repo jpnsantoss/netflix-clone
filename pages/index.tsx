@@ -8,6 +8,7 @@ import useInfoModal from "@/hooks/useInfoModel";
 import useMovieList from "@/hooks/useMovieList";
 import { NextPageContext, InferGetServerSidePropsType } from "next";
 import { getSession, signOut } from "next-auth/react";
+import Head from "next/head";
 
 export async function getServerSideProps(context: NextPageContext) {
   const session = await getSession(context);
@@ -34,6 +35,11 @@ export default function Home(
   const { isOpen, closeModal } = useInfoModal();
   return (
     <>
+      <Head>
+        <title>Netflix</title>
+        <meta name="description" content="Netflix Clone made by João Santos" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <InfoModal visible={isOpen} onClose={closeModal} />
       <Navbar />
       <Billboard />
