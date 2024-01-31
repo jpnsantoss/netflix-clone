@@ -1,4 +1,4 @@
-# Breadit - Reddit Clone
+# Nextflix Clone
 
 ## Project Description
 
