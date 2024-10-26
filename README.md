@@ -14,9 +14,8 @@ Just a project I made in my spare time to learn NextJS and frontend design. Cont
 <!-- portfolio-metadata
 {
   "title": "Project Title",
-  "description": "A brief description of the project.",
-  "thumbnail": "https://link-to-thumbnail.com/image.png",
-  "preview": "https://project-preview-url.com",
-  "tools": ["JavaScript", "Node.js", "Express"]
+  "description": "This project has broaden my knowledge in NextJS and frontend design. It has a special focus on styling.",
+  "thumbnail": "https://imgur.com/xtns0E8.gif",
+  "tools": ["Next.js", "MongoDB", "Next-Auth", "TalwindCSS"]
 }
 -->
